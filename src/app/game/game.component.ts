@@ -36,15 +36,15 @@ export class GameComponent implements OnInit {
 
 class MainScene extends Phaser.Scene {
   constructor() {
-    super({ key: 'MainScene' });
+    super({ key: 'MainScenes' });
   }
   create() {
-    console.log('create method');
+    console.log('create methods');
   }
   preload() {
-    console.log('preload method');
+    console.log('preload methods');
   }
   override update(){
-    console.log('update method');
+    console.log('update methods');
   }
 }
