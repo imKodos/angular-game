@@ -36,7 +36,7 @@ export class GameComponent implements OnInit {
 
 class MainScene extends Phaser.Scene {
   constructor() {
-    super({ key: 'MainScenes' });
+    super({ key: 'MainScene' });
   }
   create() {
     console.log('create methods');
